@@ -10,11 +10,11 @@ Welcome to the new 'Numerical Integration' gem! It is used for numerical integra
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add currency_converter
+    $ bundle add Numerical_Integration
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install currency_converter
+    $ gem install Numerical_Integration
     
 ## Usage
 
