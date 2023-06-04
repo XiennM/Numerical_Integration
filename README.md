@@ -26,7 +26,7 @@ def trapezoidal_method(function, a, b, n)
 def simpsons_method(function, a, b, n)
 ```
 
-Function examples:
+###  Function examples:
 ```ruby
 function = lambda { |x| 1 / x.to_f }
 function = Proc.new { |x| x ** 3 }
