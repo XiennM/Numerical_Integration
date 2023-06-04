@@ -17,3 +17,19 @@ If bundler is not being used to manage dependencies, install the gem by executin
     $ gem install currency_converter
     
 ## Usage
+
+To use the gem's functionality, you need to write the name of the method and add some parameters.
+For convenience, here are the signatures of all methods:
+```ruby
+def rectangle_method(function, a, b, n)
+def trapezoidal_method(function, a, b, n)
+def simpsons_method(function, a, b, n)
+```
+
+Function examples:
+```ruby
+function = lambda { |x| 1 / x.to_f }
+function = Proc.new { |x| x ** 3 }
+function = Proc.new { |x| Math.sin(x) }
+```
+
