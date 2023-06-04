@@ -1,19 +1,19 @@
-# Ruby on Replit
+## Numeric Integration
 
-This is a template to get you started with Ruby on Replit. It's ready to go so you can just hit run and start coding!
+Welcome to the new 'Numeric Integration' gem! It is used for numerical integration of functions by several proposed methods:
+```
+1. Left rectangles method 
+2. Trapezoidal method
+3. Simpson's formula
+```
+## Installation
 
-## Running the repl
+Install the gem and add to the application's Gemfile by executing:
 
-Simply hit run! You can edit the run command from the `.replit` file.
+    $ bundle add currency_converter
 
-## Installing packages
+If bundler is not being used to manage dependencies, install the gem by executing:
 
-To add packages to your repl, we recommend using the Replit packager interface in the left sidebar or using `bundle install` in the shell. Check out the [Bundle docs here](https://bundler.io/guides/getting_started.html).
-
-**Warning: Avoid using `gem install` to add packages.**
-
-Beacuse Ruby repls use [Bundle](https://bundler.io/) under the hood to provide a consistent environment that tracks and installs the exact gems and versions needed, we recommend using `bundle install` instead of `gem install`, which may not work as expected.
-
-## Help
-
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+    $ gem install currency_converter
+    
+## Usage
